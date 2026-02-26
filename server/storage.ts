@@ -238,6 +238,15 @@ export class MemStorage implements IStorage {
       },
       {
         id: "team-2",
+        name: "Yujia Zhang",
+        role: "Research Scientist",
+        institution: "University of Alberta",
+        researchInterests: ["Large Language Models", "LLM Agents", "Knowledge Graphs"],
+        scholarUrl: "https://scholar.google.com/citations?user=gk-KtnkAAAAJ&hl=en",
+        linkedinUrl: "https://www.linkedin.com/in/yujia-zhang-phd/"
+      },
+      {
+        id: "team-3",
         name: "Lewei He",
         role: "Research Collaborator",
         institution: "South China Normal University",
@@ -245,7 +254,7 @@ export class MemStorage implements IStorage {
         scholarUrl: "https://scholar.google.com/citations?user=yNotJ_cAAAAJ"
       },
       {
-        id: "team-3",
+        id: "team-4",
         name: "Pin Wang",
         role: "Research Collaborator",
         institution: "University of California, Berkeley",
@@ -253,7 +262,7 @@ export class MemStorage implements IStorage {
         scholarUrl: "https://scholar.google.com/citations?user=QPf13fYAAAAJ"
       },
       {
-        id: "team-4",
+        id: "team-5",
         name: "Lijun Sun",
         role: "Research Collaborator",
         institution: "McGill University",
@@ -261,7 +270,7 @@ export class MemStorage implements IStorage {
         scholarUrl: "https://scholar.google.com/citations?user=qi4IEtkAAAAJ"
       },
       {
-        id: "team-5",
+        id: "team-6",
         name: "Lei Yu",
         role: "Research Collaborator",
         institution: "Meta Superintelligence Labs (FAIR), University of Toronto",
@@ -269,7 +278,7 @@ export class MemStorage implements IStorage {
         scholarUrl: "https://scholar.google.com/citations?user=GJ_b4rkAAAAJ"
       },
       {
-        id: "team-6",
+        id: "team-7",
         name: "Chi Wang",
         role: "Research Collaborator",
         institution: "Google DeepMind",
@@ -277,7 +286,7 @@ export class MemStorage implements IStorage {
         scholarUrl: "https://scholar.google.com/citations?user=IiSNwnAAAAAJ"
       },
       {
-        id: "team-7",
+        id: "team-8",
         name: "Ruike Zhu",
         role: "Research Collaborator",
         institution: "University of Illinois Urbana-Champaign",
@@ -285,7 +294,7 @@ export class MemStorage implements IStorage {
         scholarUrl: "https://scholar.google.com/citations?user=kTSKemkAAAAJ"
       },
       {
-        id: "team-8",
+        id: "team-9",
         name: "Zengyi Qin",
         role: "Research Collaborator",
         institution: "Massachusetts Institute of Technology",

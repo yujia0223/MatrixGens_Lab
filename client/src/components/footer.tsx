@@ -34,11 +34,11 @@ export function Footer() {
                 <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
                   <Beaker className="h-5 w-5 text-primary-foreground" />
                 </div>
-                <span className="text-xl font-bold tracking-tight">MatrixLab</span>
+                <span className="text-xl font-bold tracking-tight">MatrixGen</span>
               </Link>
               <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                A non-profit research lab advancing AI through open collaboration.
-                Focused on reinforcement learning, LLM agents, and multiagent systems.
+                A non-profit research alliance enabling system-level collaboration
+                across institutions for social impact.
               </p>
               <div className="flex gap-2">
                 <a
@@ -144,7 +144,7 @@ export function Footer() {
         <div className="border-t py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              {currentYear} MatrixLab. A 501(c)(3) non-profit organization.
+              {currentYear} MatrixGen. A 501(c)(3) non-profit organization.
             </p>
             <p className="text-sm text-muted-foreground flex items-center gap-1">
               Made with <Heart className="h-3.5 w-3.5 text-destructive" /> for open science

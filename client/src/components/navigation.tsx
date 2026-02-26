@@ -12,6 +12,10 @@ import {
 
 const navItems = [
   { label: "Home", href: "/" },
+  { label: "Focus", href: "/focus" },
+  { label: "Services", href: "/services" },
+  { label: "People", href: "/people" },
+  { label: "Collaborate", href: "/collaborate" },
   { label: "Projects", href: "/projects" },
   { label: "Publications", href: "/publications" },
   { label: "Team", href: "/team" },
@@ -19,8 +23,7 @@ const navItems = [
     label: "About",
     children: [
       { label: "About Us", href: "/about" },
-      { label: "Google Scholar", href: "https://scholar.google.com/citations?user=DC0t9zwAAAAJ&hl=en", external: true },
-      { label: "GitHub", href: "https://github.com/matrixlab", external: true },
+      { label: "GitHub", href: "https://github.com/matrixgen", external: true },
     ],
   },
 ];
@@ -39,7 +42,7 @@ export function Navigation() {
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
               <Beaker className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold tracking-tight">MatrixLab</span>
+            <span className="text-xl font-bold tracking-tight">MatrixGen</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">

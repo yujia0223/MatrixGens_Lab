@@ -22,11 +22,12 @@ const defaultTeamMembers: TeamMember[] = [
   },
   {
     id: "2",
-    name: "Dr. Jiawei Wang",
+    name: "Dr. Yujia Zhang",
     role: "Research Scientist",
-    institution: "University of Tokyo",
-    researchInterests: ["Deep Learning", "Autonomous Driving", "Traffic Systems"],
-    scholarUrl: "https://scholar.google.com/citations?user=Y1gU9wYAAAAJ&hl=en",
+    institution: "University of Alberta",
+    researchInterests: ["Large Language Models", "LLM Agents", "Knowledge Graphs"],
+    scholarUrl: "https://scholar.google.com/citations?user=gk-KtnkAAAAJ&hl=en",
+    linkedinUrl: "https://www.linkedin.com/in/yujia-zhang-phd/",
   },
   {
     id: "3",
